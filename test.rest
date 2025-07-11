@@ -1,0 +1,18 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "location": "New York"
+}
+
+###
+GET http://localhost:3000/setup
+### 
